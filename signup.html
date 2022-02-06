@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sign Up</title>
+    <link href="signup.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sura" rel='stylesheet'>
+    <link rel="icon" 
+      type="image/png" 
+      href="homeboundlogo.png">
+  </head>
+  
+  <header class="header">
+  <h3>Home Bound<img class="nav-image" src="homeboundlogo.png"></h3>
+</header>
+  <body>
+   <h2>SIGN UP</h2>
+
+    <form action="login.html" method="POST">
+      <div class="imgcontainer">
+        <img src="homeboundlogo.png" alt="Avatar" class="avatar" width=20px height=270px>
+      </div>
+
+      <div class="container">
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+    
+        <a href="login.html"><button class="submit" type="submit">Sign Up</button></a>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+         <a href="login.html"><button type="button" class="loginButton">Have an account? Login!</button></a>
+        <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+.pfp {
+  height: 30px;
+  width: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #535E4B;
+  font-family: 'Sura', serif;
+}
+
+li{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #E9E6E2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #646e5d;
+  padding: 10px 10px;
+}
+
+
+body {
+  background-color: #C1C2AD;
+}
+
+#title {
+  font-family: 'Sura', serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+#donate {
+  font-size: 30;
+  text-align: center;
+  padding: 0;
+  font-family: 'Sura', serif;
+}
+
+#namelabel {
+  font-size: 20px;
+  text-align: center;
+  padding: 1px;
+  font-family: 'Sura', serif;
+}
+
+#names {
+  text-align: center;
+}
+
+#nameinput {
+  padding: 12px 20px;
+  margin: 15px;
+  box-sizing: border-box;
+  font-family: 'Sura', serif;
+  font-size: 16px;
+  background-color: #E9E6E2;
+  border: 2px #535E4B;
+  resize: none;
+  }
+
+button {
+  background-color: white;
+  color: #535E4B;
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
+  font-family: 'Sura', serif;
+  font-size: 20px;
+  align-items: center;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #535E4B;
+  color: white;
+}
+
+
+#buttons {
+  align-items: center;
+}
+
+.container{
+  display: inline-block;
+}
+
+.typed-out{
+  overflow: hidden;
+  font-family: 'Sura', serif;
+  border-right: 3px solid #535E4B;
+  white-space: nowrap;
+  animation: typing 1s steps(20, end) forwards;
+  font-size: 20px;
+  width: 0;
+  word-wrap: break-word;
+}
+
+@keyframes typing {
+  from { width: 5 }
+  to { width: 100% }
+}
+.submit {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#submit-btn {
+  background-color: #535E4B;
+  border: none;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Sura', serif;
+  text-align: center;
+  margin-top: 40px;
+}
+.header {
+  font-family: 'Sura', serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nav-image {
+  height: 50px;
+  width: 80px;
+}
+
+.hide {
+  display: none
+}
+
+.show {
+  display: block
+}
+
+ #popup {
+  padding: 10px 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: 'Sura', serif;
+  font-size: 14px;
+  background-color: #E9E6E2;
+  border: 2px #535E4B;
+  resize: none;
+}

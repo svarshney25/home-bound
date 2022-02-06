@@ -1,0 +1,137 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #535E4B;
+  font-family: 'Sura', serif;
+}
+
+li{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #E9E6E2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #646e5d;
+  padding: 10px 10px;
+}
+
+.pfp {
+  height: 30px;
+  width: 30px;
+}
+/*login and signup screens*/
+
+
+.header {
+  background-color: #C1C2AD;
+  text-align: center;
+  //padding: 10px;
+}
+
+body {
+  background-color: #C1C2AD;
+}
+
+
+#title {
+  font-family: 'Sura', serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+#mission-statement {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Sura', serif;
+}
+
+#logo {
+  //float: left;
+  width: 300px;
+  height: 220px;
+  position: center;
+  padding: none;
+}
+
+.container{
+  display: inline-block;
+  width: 1400px;
+  border: 5px solid #535E4B;
+  padding: 5px;
+  margin: 20px;
+  color: black;
+}
+
+.typed-out{
+  overflow: hidden;
+  font-family: 'Sura', serif;
+  border-right: 3px solid #535E4B;
+  white-space: nowrap;
+  animation: typing 4s steps(50, end) forwards;
+  font-size: 20px;
+  width: 0;
+  word-wrap: break-word;
+}
+
+@keyframes typing {
+  from { width: 5 }
+  to { width: 99% }
+}
+
+
+#download {
+  font-family: 'Sura', serif;
+  font-size: 18px;
+}
+
+#signupbtn {
+  background-color: white;
+  color: #535E4B;
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
+  font-family: 'Sura', serif;
+  font-size: 20px;
+  align-items: center;
+  margin: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#signupbtn:hover{
+  background-color: #535E4B;
+  color: white;
+}
+
+/*how it works*/
+#how-it-works {
+  font-family: 'Sura', serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+#explanation {
+  font-family: 'Sura', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+#hiw {
+  width: 1400px;
+  border: 5px solid #535E4B;
+  padding: 5px;
+  margin: 0px;
+  color: black;
+  font-family: 'Sura', serif;
+}

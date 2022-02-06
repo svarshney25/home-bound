@@ -1,0 +1,356 @@
+.pfp {
+  height: 30px;
+  width: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #535E4B;
+  font-family: 'Sura', serif;
+}
+
+li{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #E9E6E2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #646e5d;
+  padding: 10px;
+}
+
+.header {
+  background-color: #C1C2AD;
+  text-align: center;
+  padding: 0px;
+}
+
+body {
+  background-color: #C1C2AD;
+}
+
+#title {
+  font-family: 'Sura', serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: 200px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-around;
+  margin-left: length;
+}
+
+.second-row {
+  display: flex;
+  justify-content: space-around;
+  margin-left: length;
+  margin-bottom: 50px;
+}
+
+.third-row {
+  display: flex;
+  justify-content: space-around;
+  margin-left: length;
+}
+
+.fourth-row {
+  display: flex;
+  justify-content: space-around;
+  margin-left: length;
+}
+
+.container {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  display: inline-block;
+}
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: black;
+  font-size: 15px;
+  font-family: 'Sura', serif;
+}
+
+.sections {
+  background-color: #a3a585;
+  text-align: center;
+  font-family: 'Sura', serif;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+#sweatshirt {
+  display: block;
+  width: 150px;
+  height: 200px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+#sweatpants {
+  display: block;
+  width: 150px;
+  height: 200px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+#shoes {
+  display: block;
+  width: 350px;
+  height: 400px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+#beanie {
+  display: block;
+  width: 150px;
+  height: 200px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+#milk {
+  display: block;
+  width: 150px;
+  height: 200px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+h3 {
+  text-align: center; 
+  font-family: 'Sura', serif;
+}
+
+.container{
+  display: inline-block;
+}
+
+.typed-out{
+  overflow: hidden;
+  font-family: 'Sura', serif;
+  border-right: 3px solid #535E4B;
+  white-space: nowrap;
+  animation: typing 1s steps(30, end) forwards;
+  font-size: 20px;
+  width: 0;
+  word-wrap: break-word;
+}
+
+footer {
+  margin-top: 50px;
+}
+@keyframes typing {
+  from { width: 5 }
+  to { width: 12% }
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  margin-left: length;
+}
+
+.increment {
+  width: 30px;
+  height: 30px;
+  border-style: none;
+  font-size: 20px;
+  background-color: #69775f;
+}
+.increment:hover {
+  background-color: #646e5d;
+  cursor: pointer;
+}
+
+#root {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#toothbrushRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#toothpasteRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#towelsRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#veggiesRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#cerealRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#milkRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#sweatshirtRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#sweatpantsRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#shoesRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#beanieRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#tentRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#padsRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#blanketRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+#firstaidRoot {
+  font-family: 'Sura', serif;
+  margin: 0px 35px;
+  font-size: 25px;
+}
+
+/* coding the form */
+#namelabel {
+  font-size: 20px;
+  text-align: center;
+  padding: 1px;
+  font-family: 'Sura', serif;
+}
+
+#names {
+  text-align: center;
+}
+
+#nameinput {
+  padding: 12px 20px;
+  margin: 15px;
+  box-sizing: border-box;
+  font-family: 'Sura', serif;
+  font-size: 16px;
+  background-color: #E9E6E2;
+  border: 2px #535E4B;
+  resize: none;
+} 
+.submit {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.submit-btn {
+  background-color: #535E4B;
+  border: none;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Sura', serif;
+  text-align: center;
+  margin-top: 40px;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #69775f;
+}
+
+.header {
+  font-family: 'Sura', serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nav-image {
+  height: 50px;
+  width: 80px;
+}

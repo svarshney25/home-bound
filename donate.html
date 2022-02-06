@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<header class="header">
+  <h3>Home Bound<br><img class="nav-image" src="homeboundlogo.png" width="900" height="80"></h3>
+</header>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Donate</title>
+	<link href="donate.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sura&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sura" rel='stylesheet'>
+  <link rel="icon" 
+      type="image/png" 
+      href="homeboundlogo.png">
+	<nav>
+		<ul>
+      <li><a href="login.html"><img class="pfp" src="pfp.jpeg"></a></li>
+			<li><a href="donate.html">Donate</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="volunteer.html">Volunteer</a></li>
+			<li><a href="index.html">Home</a></li>
+		</ul>
+	</nav>
+	<h1 id="title">DONATE</h1>
+</head>
+<center><div class="container">
+  <div class="typed-out"> We appreciate any donations! </div>
+</div> </center>
+
+<div id="names">
+	<form>
+		<label id="namelabel" for="fname">First name:</label>
+      <input type="text" id="nameinput" placeholder="first name"name="fname">
+      <label id="namelabel" for="lname">Last name:</label>
+      <input type="text" id="nameinput" placeholder="last name" name="lname">
+      <label id="namelabel" for="email">Email:</label>
+      <input type="text" id="nameinput" placeholder="enter email" name="email">
+    </form>
+  </div>
+
+  <h1 id="donate">Amount</h1>
+  
+  <h3 id="donate"> How much would you like to donate? </h3> 
+  
+  <!-- btn java id tag to change color when clicked doesn't work -->
+    <center> <div id="buttons">
+     <button id="btn">$1</button>
+     <button id="btn5">$5</button>
+     <button id="btn20">$20</button>
+     <button id="btn50">$50</button>
+     <button id="btnCust" onclick="clickCust()">Custom</button>
+     <input type="text" name="popup"  id="popup" class="hide" placeholder="enter amount in dollars"></input>
+    </div> </center>
+
+    <script src="donate.js"></script>
+  
+    <div class="submit">
+      <button id="submit-btn" type="button" onclick="sendMessage()">Submit</button> 
+    </div>
+
+  <script>
+    function sendMessage(){
+      alert("Thank you for your donation! Your funds will be going towards replenishing our stocks of products for the homeless. We appreciate your help with our initiative!")
+      document.getElementByClassName("").reset()
+    }
+  </script>
+  <hr>
+    <footer>
+        <img src="homeboundlogo.png" align="right" style="width: 60px; height:45px;">
+        <p align="center"> Home Bound® </p>
+        <p align="center"> GunnHacks 2022: Shivika, Manika & Ashley </p>
+    </footer>
+
+</html>

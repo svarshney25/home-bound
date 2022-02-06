@@ -1,0 +1,250 @@
+  <!DOCTYPE html>
+<html> <center>
+  <header class="header">
+  <h3>Home Bound<br><img class="nav-image" src="homeboundlogo.png" width="900" height="80"></h3>
+  </header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Products</title>
+    <link href="products.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sura" rel='stylesheet'>
+    <link rel="icon" 
+      type="image/png" 
+      href="homeboundlogo.png">
+  </head>
+  <nav>
+      <ul>
+        <li><a href="login.html"><img class="pfp" src="pfp.jpeg"></a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  <header>
+      <h1 id="title">PRODUCTS</h1>
+  <header>
+  <body>
+    <h3>Please fill out your contact information, so we can keep track of who is donating resources. Click products you would like to donate as well as the quantity.</h3>
+    <div class="typed-out"> Hover to learn more! </div>
+
+  <div id="names">
+	  <form>
+		  <label id="namelabel" for="fname">First name:</label>
+      <input type="text" id="nameinput" placeholder="enter first name"name="fname">
+      <label id="namelabel" for="lname">Last name:</label>
+      <input type="text" id="nameinput" placeholder="enter last name" name="lname">
+      <label id="namelabel" for="email">Email:</label>
+      <input type="text" id="nameinput" placeholder="enter email" name="email">
+    </form>
+  </div>
+
+  <h2 class="sections">HYGIENE</h2>
+  <section class="first-row">
+    <div class="container">
+      <img src="images/soap.png" class="image">
+
+      <div class="card">
+        <button class="increment" onclick="decrement()">-</button>
+        <h2 id="root"></h2>
+        <button class="increment" onclick="increment()">+</button>
+      </div>
+      
+      <div class="overlay">
+        <div class="text">Our soaps are made of all natural plant oils.</div>
+      </div>
+    </div>  
+    <div class="container">
+    <img src="images/toothbrush.png" class="image">
+    <div class="card">
+        <button class="increment" onclick="decrement1()">-</button>
+        <h2 id="toothbrushRoot"></h2>
+        <button class="increment" onclick="increment1()">+</button>
+      </div>
+    <div class="overlay">
+        <div class="text">Toothbrushes are made of plant oils. </div>
+      </div>
+    </div>
+    <div class="container">
+    <img src="images/toothpaste.png" width="500" height="425"class="image">
+    <div class="card">
+        <button class="increment" onclick="decrement2()">-</button>
+        <h2 id="toothpasteRoot"></h2>
+        <button class="increment" onclick="increment2()">+</button>
+      </div>
+    <div class="overlay">
+        <div class="text">All toothpastes are made from coconut oil extract.</div>
+      </div>
+    </div>
+    <div class="container">
+    <img src="images/towels.png" class="image">
+    <div class="card">
+        <button class="increment" onclick="decrement3()">-</button>
+        <h2 id="towelsRoot"></h2>
+        <button class="increment" onclick="increment3()">+</button>
+      </div>
+    <div class="overlay">
+        <div class="text">Towels are made by using fresh cotton and dying it using plant dye.</div>
+      </div>
+    </div>
+  </section>
+  
+  <h2 class="sections">ORGANIC FOOD</h2>
+    <section class="second-row">
+    <div class="container">
+      <img src="images/fruitsandveggies.jpeg" class="image">
+      <div class="card">
+        <button class="increment" onclick="decrement4()">-</button>
+        <h2 id="veggiesRoot"></h2>
+        <button class="increment" onclick="increment4()">+</button>
+      </div>
+      <div class="overlay">
+        <div class="text">Veggies come in bunches of 5 (carrots, tomatoes, spinach, cucumbers, and bell peppers) and fruits in 4 (apples, oranges, bananas, and lemons).</div>
+      </div>
+    </div>  
+    <div class="container">
+    <img src="images/cereal.jpeg" class="image">
+    <div class="card">
+        <button class="increment" onclick="decrement5()">-</button>
+        <h2 id="cerealRoot"></h2>
+        <button class="increment" onclick="increment5()">+</button>
+      </div>
+    <div class="overlay">
+        <div class="text">Whole grain and other yummy cereals can be donated.</div>
+      </div>
+    </div>
+    <div class="container">
+    <img src="images/milk.jpg" id="milk">
+    <div class="card">
+        <button class="increment" onclick="decrement6()">-</button>
+        <h2 id="milkRoot"></h2>
+        <button class="increment" onclick="increment6()">+</button>
+      </div>
+    <div class="overlay">
+        <div class="text">Dairy products are stored in our shelters' fridges so they don't rot. The homeless have the ability to claim some of them for their own use. </div>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="sections">CLOTHES</h2>
+    <section class="third-row">
+    <div class="container">
+      <img src="images/sweatshirt.png" id="sweatshirt">
+      <div class="card">
+        <button class="increment" onclick="decrement7()">-</button>
+        <h2 id="sweatshirtRoot"></h2>
+        <button class="increment" onclick="increment7()">+</button>
+      </div>
+      <div class="overlay">
+        <div class="text">Sweatshirts come in all colors and sizes. Select your preference.</div>
+      </div>
+    </div>  
+    <div class="container">
+    <img src="images/sweatpants.png" id="sweatpants">
+    <div class="card">
+        <button class="increment" onclick="decrement8()">-</button>
+        <h2 id="sweatpantsRoot"></h2>
+        <button class="increment" onclick="increment8()">+</button>
+      </div>
+    <div class="overlay">
+        <div class="text">Sweatpants come in only 2 colors, gray and black, but all sizes are available.</div>
+      </div>
+    </div>
+    <div class="container">
+    <img src="images/shoes.png" class="image">
+    <div class="card">
+        <button class="increment" onclick="decrement9()">-</button>
+        <h2 id="shoesRoot"></h2>
+        <button class="increment" onclick="increment9()">+</button>
+      </div>
+    <div class="overlay">
+        <div class="text">Shoes are available only in black, but all sizes are available.</div>
+      </div>
+    </div>
+    <div class="container">
+    <img src="images/beanie.png" id="beanie">
+    <div class="card">
+        <button class="increment" onclick="decrement10()">-</button>
+        <h2 id="beanieRoot"></h2>
+        <button class="increment" onclick="increment10()">+</button>
+      </div>
+    <div class="overlay">
+        <div class="text">Beanies come in all colors.</div>
+      </div>
+    </div>
+    
+  </section>
+  
+  <h2 class="sections">MISCELLANEOUS</h2>
+    <section class="fourth-row">
+      <div class="container">
+        <img src="images/tent.png" class="image">
+        <div class="card">
+        <button class="increment" onclick="decrement11()">-</button>
+        <h2 id="tentRoot"></h2>
+        <button class="increment" onclick="increment11()">+</button>
+      </div>
+        <div class="overlay">
+          <div class="text">Tents can also be donated to provide temporary shelter.</div>
+        </div>
+      </div>  
+      <div class="container">
+      <img src="images/pads.png" class="image">
+      <div class="card">
+        <button class="increment" onclick="decrement12()">-</button>
+        <h2 id="padsRoot"></h2>
+        <button class="increment" onclick="increment12()">+</button>
+      </div>
+      <div class="overlay">
+          <div class="text">Pads and other menstrual products may be donated for women in need.</div>
+        </div>
+      </div>
+      <div class="container">
+      <img src="images/blanket.png" class="image">
+      <div class="card">
+        <button class="increment" onclick="decrement13()">-</button>
+        <h2 id="blanketRoot"></h2>
+        <button class="increment" onclick="increment13()">+</button>
+      </div>
+      <div class="overlay">
+          <div class="text">Cozy blankets are also donatable.</div>
+        </div>
+      </div>
+      <div class="container">
+      <img src="images/firstaid.png" class="image">
+      <div class="card">
+        <button class="increment" onclick="decrement14()">-</button>
+        <h2 id="firstaidRoot"></h2>
+        <button class="increment" onclick="increment14()">+</button>
+      </div>
+      <div class="overlay">
+          <div class="text">First aid kits are very useful in case of any injury.</div>
+        </div>
+      </div>
+  </section>
+  
+  <div class="submit">
+      <button class="submit-btn" type="button" onclick="sendMessage()">Submit</button> 
+    </div>
+
+  <script>
+    function sendMessage(){
+      alert("Your products were submitted successfully! Thank you for helping homeless people in your community!")
+      
+    }
+  </script>
+    
+<hr>
+  <footer>
+        <img src="homeboundlogo.png" align="right" style="width: 60px; height:45px">
+        <p align="center"> Home Bound® </p>
+        <p align="center"> GunnHacks 2022: Shivika, Manika & Ashley </p>
+    </footer>
+    <script src="products.js"></script>
+  </body>
+  </center>
+</html>
